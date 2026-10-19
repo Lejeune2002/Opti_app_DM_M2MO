@@ -7,7 +7,7 @@ Pour 21/10 : Pour l'instant, le travail effectué vise simplement à me familiar
 - Le fichier toy2.py qui suit le tutoriel d'utilisation de Pytorch : https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html Ajoute cependant deux optimizers qui sont Muon et SGD 
 - data : Utilisé dans le cadre du fichier toy2.py
 - pp.py : Implémentation d'une descente de gradient classique pour trouver les poids d'un réseau de neurone à 5 couches en superposant Relu = max(0,x) et couche linéaire
-- comp_SGD/Comp_SGG : comparaison descente de gradient stochastique et descente de gradient spectral pour toy2.py durant l'entraînement. On remarque pour l'instant que dans cet exemple, la descente de gradient stochastique fait moins bien vis-à-vis de la métrique choisie. Ce résultat ne vaut cependant rien à l'heure actuelle car Muon entraîne les poids des matrices là où la descente de gradient stochastique n'entraîne que le terme de biais.
+- comp_SGD/Comp_SGG : Entraînement du réseau de Neurone de toy2.py qui vise à prédire les classes. Il est impossible de comparer les méthodes ici car Muon entraîne les matrices de poids là où la descente de gradient stochastique n'entraîne que les termes de biais. Ainsi, il est parfaitement normal de remarque une importante différence dans le score des deux approches. On ne peut pas mieux prédire avec une constante plutôt qu'avec un réseau de Neurone.
 
 
 Problèmes rencontrés jusq'à présent :
