@@ -6,7 +6,6 @@ Pour 21/10 : Pour l'instant, le travail effectué vise simplement à me familiar
 - les fichiers toy_GD : des exemples basiques qui mettent en place des descentes de gradient "triviales" visant à comprendre l'objectif
 - Le fichier toy2.py qui suit le tutoriel d'utilisation de Pytorch : https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html Ajoute cependant deux optimizers qui sont Muon et SGD 
 - data : Utilisé dans le cadre du fichier toy2.py
-- pytorche_examples.ipynb : exemple du cours fournit dans le cadre du projet.
 - pp.py : Implémentation d'une descente de gradient classique pour trouver les poids d'un réseau de neurone à 5 couches en superposant Relu = max(0,x) et couche linéaire
 - comp_SGD/Comp_SGG : comparaison descente de gradient stochastique et descente de gradient spectral pour toy2.py durant l'entraînement. On remarque pour l'instant que dans cet exemple, la descente de gradient stochastique fait moins bien vis-à-vis de la métrique choisie. Ce résultat ne vaut cependant rien à l'heure actuelle car Muon entraîne les poids des matrices là où la descente de gradient stochastique n'entraîne que le terme de biais.
 
