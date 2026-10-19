@@ -1,6 +1,6 @@
 # Opti_app_DM_M2MO
 
-Ce repo est crée pour le cours du Master 2 MO dans le cadre d'un DM portant sur la comparaison des convergences des méthodes de descente de gradient stochastique et spectrale.
+Ce repo est crée pour le cours d'optimisation pour l'apprentissage du Master 2 MO dans le cadre d'un DM portant sur la comparaison des convergences des méthodes de descente de gradient stochastique et spectrale.
 
 Pour 21/10 : Pour l'instant, le travail effectué vise simplement à me familiariser avec Pytorch et l'implémentation des algorithmes de descente. On peut donc trouver à ce jour dans le repo différents fichiers :
 - les fichiers toy_GD : des exemples basiques qui mettent en place des descentes de gradient "triviales" visant à comprendre l'objectif
